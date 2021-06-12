@@ -1,0 +1,129 @@
+body{
+    background: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+$mail-color: 'red';
+
+.header{
+    border: 1px solid;
+    border-radius: 10px;
+    float: right;
+    width: 600px;
+    height: $mail-color;
+    text-align: center;
+    font-size: 60px;
+    background-color: #6d6d6d;
+    margin-top: 60px;
+}
+
+#header-positon{
+    width: 70%;
+    float: left;
+}
+
+.menu-category:last-child {
+    color: red;
+}
+/* 
+#add_costs {
+    color: red !important;
+}
+
+#add_costs.menu-category {
+    color: green !important;
+}
+
+div#add_costs.menu-category {
+    color: orange;
+} */
+
+#login-register{
+    float: right;
+    margin-top: 25px;
+}
+
+.btn-register-login{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 148px;
+    background-color: #6d6d6d;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+}
+
+.form-register{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-register button, label{
+    margin: 10px 20px 10px;
+}
+
+.form-register label{
+    color: #fff;
+}
+
+#btn-hover:hover{
+    background-color: #919191;
+}
+
+.menu{
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.menu-category{
+    display: inline-block;
+    background-color: #6d6d6d;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.menu-category:hover{
+    background-color: #919191;
+}
+
+.menu-category a {
+    text-decoration: none;
+    color: #000;
+}
+
+.template_table{
+    border: 1px solid;
+    height: 300px;
+    background-color: #6d6d6d;
+    text-align: center;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.title_table{
+    display: inline;
+    font-size: 3em;
+    margin: 10px 100px;
+}
+
+.title_add_category{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #a5a5a5;
+    width: 120px; 
+    padding: 10px;
+}
+ 
+.btn_add_category{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #a5a5a5;
+    width: 100px;
+}
+

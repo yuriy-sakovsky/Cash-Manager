@@ -1,0 +1,79 @@
+body {
+    background-color: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.position_title {
+    width: 60rem;
+    height: 6rem;
+    float: left;
+    vertical-align: bottom;
+}
+
+.title {
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: #9b9999;
+    width: 35rem;
+    text-align: center;
+    font-size: 4rem;
+    float: right;
+    margin-top: 2.5rem;
+}
+
+.title_login_psw {
+    display: inline;
+    width: 13.5rem;
+    height: 8rem;
+    float: left;
+    color: #fff;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    line-height: 1rem;
+    letter-spacing: 0.06rem;
+}
+
+.form_register {
+    float: right;
+    width: 10rem;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0.8rem 0.4rem 0 0;
+}
+
+.btn_register_login {
+    border: 2px solid;
+    border-radius: 0.3rem;
+    background-color: #6d6d6d;
+    width: 10rem;
+    height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.btn_register_login:hover {
+    background-color: #959595;
+}
+
+.input_login_pwd {
+    border: 2px solid;
+    width: 9.5rem;
+    height: 1.1rem;
+}
+
+.menu_items {
+    float: left;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 3.5rem;
+    background-color: #6d6d6d;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 4rem;
+}
+
+.menu_items:hover {
+    background-color: #959595;  
+}
